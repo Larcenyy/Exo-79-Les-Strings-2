@@ -19,4 +19,5 @@ if (pomme.endsWith("!")){
     console.log(pomme + "Se termine par un point d'exclamation")
 }
 
-myOne.innerHTML = pomme.slice()
+myOne.innerHTML = pomme.split ("")
+console.log(myOne)
