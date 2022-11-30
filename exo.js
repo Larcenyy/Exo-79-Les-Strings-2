@@ -12,10 +12,10 @@ console.log(pomme.indexOf("pomme"))
 
 myPomme.innerHTML = pomme.substring(17, 23)
 
-if (pomme.includes("Elle")){
+if (pomme.startsWith("Elle")){
     console.log(pomme + "Commence par elle")
 }
-if (pomme.lastIndexOf("!")){
+if (pomme.endsWith("!")){
     console.log(pomme + "Se termine par un point d'exclamation")
 }
 
